@@ -1,5 +1,5 @@
-pentest report layout
--------------------------------------------
+Apache Solar log4shell (oversimplified POC) [room created by John Hammond]
+-------------------------------------------------
 1. Quick recap on Apache SOLR LOG4J vulnerability
 
 - introducing log4shell
