@@ -1,0 +1,46 @@
+# Nmap 7.91 scan initiated Wed Feb 24 08:52:40 2021 as: nmap -sC -sV -oN nmap/init -v 10.10.75.45
+Nmap scan report for 10.10.75.45
+Host is up (0.37s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|_  256 3c:f5:82:c8:a8:8b:32:b1:03:95:2d:48:b6:c8:37:c9 (ED25519)
+80/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+81/tcp   open  http    nginx 1.18.0 (Ubuntu)
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+82/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+2222/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|_  256 01:a0:a5:3c:2e:5e:02:fe:f5:d2:8a:dd:4c:44:1a:2b (ED25519)
+8888/tcp open  http    Werkzeug httpd 0.16.0 (Python 3.8.5)
+|_http-server-header: Werkzeug/0.16.0 Python/3.8.5
+9999/tcp open  abyss?
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 200 OK
+|     Date: Wed, 24 Feb 2021 00:53:22 GMT
+|     Content-Length: 0
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Date: Wed, 24 Feb 2021 00:53:20 GMT
+|     Content-Length: 0
+|   HTTPOptions: 
+|     HTTP/1.0 200 OK
+|     Date: Wed, 24 Feb 2021 00:53:21 GMT
+|_    Content-Length: 0
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9999-TCP:V=7.91%I=7%D=2/24%Time=6035A381%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,4B,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Wed,\x2024\x20Feb\x2020
+SF:21\x2000:53:20\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,4
+SF:B,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Wed,\x2024\x20Feb\x202021\x2000:5
+SF:3:21\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,4B,"H
+SF:TTP/1\.0\x20200\x20OK\r\nDate:\x20Wed,\x2024\x20Feb\x202021\x2000:53:22
+SF:\x20GMT\r\nContent-Length:\x200\r\n\r\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb 24 08:55:42 2021 -- 1 IP address (1 host up) scanned in 182.76 seconds

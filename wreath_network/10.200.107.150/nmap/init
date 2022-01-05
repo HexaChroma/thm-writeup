@@ -1,0 +1,8 @@
+# Nmap 7.91 scan initiated Wed Apr  7 00:22:12 2021 as: nmap -Pn -sC -sV -oN 10.200.107.150/nmap/init -v 10.200.107.150
+Nmap scan report for 10.200.107.150
+Host is up.
+All 1000 scanned ports on 10.200.107.150 are filtered
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Apr  7 00:25:34 2021 -- 1 IP address (1 host up) scanned in 202.14 seconds

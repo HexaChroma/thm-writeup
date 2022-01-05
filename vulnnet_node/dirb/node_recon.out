@@ -1,0 +1,4 @@
+http://10.10.20.168:8080/Login (Status: 200) [Size: 2127]
+http://10.10.20.168:8080/css (Status: 301) [Size: 173]
+http://10.10.20.168:8080/img (Status: 301) [Size: 173]
+http://10.10.20.168:8080/login (Status: 200) [Size: 2127]

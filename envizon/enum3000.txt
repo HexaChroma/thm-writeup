@@ -1,0 +1,30 @@
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            https://10.10.250.138:3000
+[+] Threads:        10
+[+] Wordlist:       /opt/web/wordlists/SecLists/Discovery/Web-Content/common.txt
+[+] Status codes:   200,204,301,302,307,500
+[+] User Agent:     gobuster/3.0.1
+[+] Show length:    true
+[+] Expanded:       true
+[+] Timeout:        10s
+===============================================================
+2021/01/24 09:56:57 Starting gobuster
+===============================================================
+https://10.10.250.138:3000/404 (Status: 200) [Size: 1722]
+https://10.10.250.138:3000/500 (Status: 200) [Size: 1635]
+https://10.10.250.138:3000/admin (Status: 302) [Size: 104]
+https://10.10.250.138:3000/clients (Status: 302) [Size: 106]
+https://10.10.250.138:3000/favicon.ico (Status: 200) [Size: 0]
+https://10.10.250.138:3000/groups (Status: 302) [Size: 106]
+https://10.10.250.138:3000/images (Status: 302) [Size: 106]
+https://10.10.250.138:3000/issues (Status: 302) [Size: 106]
+https://10.10.250.138:3000/notes (Status: 302) [Size: 106]
+https://10.10.250.138:3000/reports (Status: 302) [Size: 106]
+https://10.10.250.138:3000/robots.txt (Status: 200) [Size: 98]
+https://10.10.250.138:3000/scans (Status: 302) [Size: 106]
+===============================================================
+2021/01/24 10:06:24 Finished
+===============================================================

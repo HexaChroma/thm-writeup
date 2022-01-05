@@ -1,0 +1,106 @@
+            ; DATA XREF from entry0 @ 0x10ad
+┌ 198: int main (int argc, char **argv);
+│           ; var char **var_20h @ rbp-0x20
+│           ; var int64_t var_14h @ rbp-0x14
+│           ; var char *s @ rbp-0xd
+│           ; var signed int64_t var_4h @ rbp-0x4
+│           ; arg int argc @ rdi
+│           ; arg char **argv @ rsi
+│           0x00001175      55             push rbp
+│           0x00001176      4889e5         mov rbp, rsp
+│           0x00001179      4883ec20       sub rsp, 0x20
+│           0x0000117d      897dec         mov dword [var_14h], edi    ; argc
+│           0x00001180      488975e0       mov qword [var_20h], rsi    ; argv
+│           0x00001184      b900000000     mov ecx, 0                  ; void*data
+│           0x00001189      ba01000000     mov edx, 1                  ; void*addr
+│           0x0000118e      be00000000     mov esi, 0                  ; pid_t pid
+│           0x00001193      bf00000000     mov edi, 0                  ; __ptrace_request request
+│           0x00001198      b800000000     mov eax, 0
+│           0x0000119d      e8befeffff     call sym.imp.ptrace         ; long ptrace(__ptrace_request request, pid_t pid, void*addr, void*data)
+│           0x000011a2      4883f8ff       cmp rax, 0xffffffffffffffff
+│       ┌─< 0x000011a6      eb1b           jmp 0x11c3
+..
+│       │   ; CODE XREF from main @ 0x11a6
+│       └─> 0x000011c3      488d3d910e00.  lea rdi, str.e_36m_nSay_my_username____e_0m ; 0x205b ; const char *format
+│           0x000011ca      b800000000     mov eax, 0
+│           0x000011cf      e86cfeffff     call sym.imp.printf         ; int printf(const char *format)
+│           0x000011d4      488b15a52e00.  mov rdx, qword [obj.stdin]  ; obj.__TMC_END__
+│                                                                      ; [0x4080:8]=0 ; FILE *stream
+│           0x000011db      488d45f3       lea rax, [s]
+│           0x000011df      be09000000     mov esi, 9                  ; int size
+│           0x000011e4      4889c7         mov rdi, rax                ; char *s
+│           0x000011e7      e864feffff     call sym.imp.fgets          ; char *fgets(char *s, int size, FILE *stream)
+│           0x000011ec      c745fc000000.  mov dword [var_4h], 0
+│       ┌─< 0x000011f3      eb48           jmp 0x123d
+│       │   ; CODE XREF from main @ 0x1241
+│      ┌──> 0x000011f5      8b45fc         mov eax, dword [var_4h]
+│      ╎│   0x000011f8      4898           cdqe
+│      ╎│   0x000011fa      488d14850000.  lea rdx, [rax*4]
+│      ╎│   0x00001202      488d05572e00.  lea rax, obj.username       ; 0x4060 ; U"kym~humr"
+│      ╎│   0x00001209      8b1402         mov edx, dword [rdx + rax]
+│      ╎│   0x0000120c      8b45fc         mov eax, dword [var_4h]
+│      ╎│   0x0000120f      4898           cdqe
+│      ╎│   0x00001211      0fb64405f3     movzx eax, byte [rbp + rax - 0xd]
+│      ╎│   0x00001216      83f004         xor eax, 4
+│      ╎│   0x00001219      0fbec0         movsx eax, al
+│      ╎│   0x0000121c      83c008         add eax, 8
+│      ╎│   0x0000121f      39c2           cmp edx, eax
+│     ┌───< 0x00001221      7416           je 0x1239
+│     │╎│   0x00001223      488d3d560e00.  lea rdi, str.e_31m_nThat_is_not_my_username_e_0m ; 0x2080 ; const char *s
+│     │╎│   0x0000122a      e801feffff     call sym.imp.puts           ; int puts(const char *s)
+│     │╎│   0x0000122f      bf00000000     mov edi, 0                  ; int status
+│     │╎│   0x00001234      e837feffff     call sym.imp.exit           ; void exit(int status)
+│     │╎│   ; CODE XREF from main @ 0x1221
+│     └───> 0x00001239      8345fc01       add dword [var_4h], 1
+│      ╎│   ; CODE XREF from main @ 0x11f3
+│      ╎└─> 0x0000123d      837dfc07       cmp dword [var_4h], 7
+│      └──< 0x00001241      7eb2           jle 0x11f5
+│           0x00001243      488d3d5e0e00.  lea rdi, str.e_32m_nCorrect__That_is_my_name_e_0m ; 0x20a8 ; const char *s
+│           0x0000124a      e8e1fdffff     call sym.imp.puts           ; int puts(const char *s)
+│           0x0000124f      b800000000     mov eax, 0
+│           0x00001254      c9             leave
+└           0x00001255      c3             ret
+-------------------------------------------------------------------------------------------------------
+
+function main () {
+    //  7 basic blocks
+
+    loc_0x1175:
+
+         //DATA XREF from entry0 @ 0x10ad
+       push rbp
+       rbp = rsp
+       rsp -= 0x20
+       dword [var_14h] = edi    //argc
+       qword [var_20h] = rsi    //argv
+       ecx = 0                  //void*data
+       edx = 1                  //void*addr
+       esi = 0                  //pid_t pid
+       edi = 0                  //__ptrace_request request
+       eax = 0
+                                                   
+       long ptrace(?, -1, ?, ?)
+       var = rax - 0xffffffffffffffff
+       goto 0x11c3
+   do
+   {
+        loc_0x11c3:
+
+           //CODE XREF from main @ 0x11a6
+           rdi = rip + str.e_36m_nSay_my_username____e_0m //0x205b ; const char *format
+           eax = 0
+                                                       
+           int printf("\x1b[36m\nSay my username >> \x1b[0m")
+           rdx = qword [obj.stdin]  //obj.__TMC_END__
+                                    //[0x4080:8]=0 ; FILE *stream
+           rax = s
+           esi = 9                  //int size
+           rdi = rax                //char *s
+                                                      
+           char *fgets("", 0, ?)
+           dword [var_4h] = 0
+           goto 0x123d
+       } while (?);
+  return;
+
+}

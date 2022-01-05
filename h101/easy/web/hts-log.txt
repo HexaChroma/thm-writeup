@@ -1,0 +1,13 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Wed, 24 Feb 2021 07:48:59 at 10.10.160.147:9001
+(httrack 10.10.160.147:9001 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+07:49:13	Error: 	"File not found" (404) at link 10.10.160.147:9001/icons/ubuntu-logo.png (from 10.10.160.147:9001/html/)
+07:49:13	Error: 	"File not found" (404) at link 10.10.160.147:9001/manual (from 10.10.160.147:9001/html/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 51 seconds : 66 links scanned, 63 files written (147794 bytes overall) [161440 bytes received at 3165 bytes/sec]
+(2 errors, 0 warnings, 0 messages)

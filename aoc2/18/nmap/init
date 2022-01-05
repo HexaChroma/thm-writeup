@@ -1,0 +1,25 @@
+# Nmap 7.91 scan initiated Wed Jan 27 10:52:33 2021 as: nmap -Pn -sC -sV -oN nmap/init -T3 10.10.115.45
+Nmap scan report for 10.10.115.45
+Host is up (0.37s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE       VERSION
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: TBFC-CMN-RE2
+|   NetBIOS_Domain_Name: TBFC-CMN-RE2
+|   NetBIOS_Computer_Name: TBFC-CMN-RE2
+|   DNS_Domain_Name: tbfc-cmn-re2
+|   DNS_Computer_Name: tbfc-cmn-re2
+|   Product_Version: 10.0.17763
+|_  System_Time: 2021-01-27T02:53:02+00:00
+| ssl-cert: Subject: commonName=tbfc-cmn-re2
+| Not valid before: 2020-12-16T17:42:47
+|_Not valid after:  2021-06-17T17:42:47
+|_ssl-date: 2021-01-27T02:53:03+00:00; -1s from scanner time.
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1s, deviation: 0s, median: -1s
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jan 27 10:53:04 2021 -- 1 IP address (1 host up) scanned in 31.36 seconds

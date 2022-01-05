@@ -1,0 +1,108 @@
+$ ls /home -laR
+/home:
+total 24
+drwxr-xr-x  6 root root 4096 Dec  3 02:06 .
+drwxr-xr-x 24 root root 4096 Dec 12 15:22 ..
+dr-xr-xr-x  3 root root 4096 Dec  3 01:58 ftpuser
+drwxr-xr-x  6 mat  mat  4096 Dec  3 03:31 mat
+drwxr-xr-x  6 toby toby 4096 Dec 12 15:25 toby
+drwxr-xr-x  5 will will 4096 Dec  3 02:31 will
+
+/home/ftpuser:
+total 12
+dr-xr-xr-x 3 root   root    4096 Dec  3 01:58 .
+drwxr-xr-x 6 root   root    4096 Dec  3 02:06 ..
+dr-xr-xr-x 3 nobody nogroup 4096 Dec  3 01:58 ftp
+
+/home/ftpuser/ftp:
+total 16
+dr-xr-xr-x 3 nobody  nogroup 4096 Dec  3 01:58 .
+dr-xr-xr-x 3 root    root    4096 Dec  3 01:58 ..
+drwxr-xr-x 2 ftpuser ftpuser 4096 Feb 20 04:50 files
+-rw-r--r-- 1 root    root      21 Dec  3 01:58 flag_2.txt
+
+/home/ftpuser/ftp/files:
+total 20
+drwxr-xr-x 2 ftpuser ftpuser 4096 Feb 20 04:50 .
+dr-xr-xr-x 3 nobody  nogroup 4096 Dec  3 01:58 ..
+-rw-r--r-- 1 ftpuser ftpuser 5491 Feb 20 04:50 shell.php
+-rw-r--r-- 1 ftpuser ftpuser    2 Feb 20 04:45 test.txt
+
+/home/mat:
+total 312
+drwxr-xr-x 6 mat  mat    4096 Dec  3 03:31 .
+drwxr-xr-x 6 root root   4096 Dec  3 02:06 ..
+lrwxrwxrwx 1 root root      9 Dec  3 02:33 .bash_history -> /dev/null
+-rw-r--r-- 1 mat  mat     220 Dec  3 01:58 .bash_logout
+-rw-r--r-- 1 mat  mat    3771 Dec  3 01:58 .bashrc
+drwx------ 2 mat  mat    4096 Dec  3 02:47 .cache
+drwx------ 3 mat  mat    4096 Dec  3 02:47 .gnupg
+drwxrwxr-x 3 mat  mat    4096 Dec  3 01:58 .local
+-rw-r--r-- 1 mat  mat     807 Dec  3 01:58 .profile
+-rw-r--r-- 1 mat  mat  270433 Dec  3 01:58 cow.jpg
+-rw------- 1 mat  mat      37 Dec  3 01:58 flag_5.txt
+-rw-r--r-- 1 will will    141 Dec  3 01:58 note.txt
+drwxrwxr-x 2 will will   4096 Dec  3 03:31 scripts
+ls: cannot open directory '/home/mat/.cache': Permission denied
+ls: cannot open directory '/home/mat/.gnupg': Permission denied
+
+/home/mat/.local:
+total 12
+drwxrwxr-x 3 mat mat 4096 Dec  3 01:58 .
+drwxr-xr-x 6 mat mat 4096 Dec  3 03:31 ..
+drwx------ 3 mat mat 4096 Dec  3 01:58 share
+ls: cannot open directory '/home/mat/.local/share': Permission denied
+
+/home/mat/scripts:
+total 16
+drwxrwxr-x 2 will will 4096 Dec  3 03:31 .
+drwxr-xr-x 6 mat  mat  4096 Dec  3 03:31 ..
+-rw-r--r-- 1 mat  mat   133 Dec  3 03:31 cmd.py
+-rw-r--r-- 1 will will  208 Dec  3 01:58 will_script.py
+
+/home/toby:
+total 44
+drwxr-xr-x 6 toby toby 4096 Dec 12 15:25 .
+drwxr-xr-x 6 root root 4096 Dec  3 02:06 ..
+lrwxrwxrwx 1 root root    9 Dec  3 02:34 .bash_history -> /dev/null
+-rw-r--r-- 1 toby toby  220 Dec  3 01:58 .bash_logout
+-rw-r--r-- 1 toby toby 3771 Dec  3 01:58 .bashrc
+drwx------ 2 toby toby 4096 Dec  3 02:40 .cache
+drwx------ 3 toby toby 4096 Dec  3 02:40 .gnupg
+drwxrwxr-x 3 toby toby 4096 Dec  3 01:58 .local
+-rw-r--r-- 1 toby toby  807 Dec  3 01:58 .profile
+-rw------- 1 toby toby   21 Dec  3 01:58 flag_4.txt
+drwxrwxr-x 2 toby toby 4096 Dec  3 03:31 jobs
+-rw-r--r-- 1 mat  mat    89 Dec 12 15:25 note.txt
+ls: cannot open directory '/home/toby/.cache': Permission denied
+ls: cannot open directory '/home/toby/.gnupg': Permission denied
+
+/home/toby/.local:
+total 12
+drwxrwxr-x 3 toby toby 4096 Dec  3 01:58 .
+drwxr-xr-x 6 toby toby 4096 Dec 12 15:25 ..
+drwx------ 3 toby toby 4096 Dec  3 01:58 share
+ls: cannot open directory '/home/toby/.local/share': Permission denied
+
+/home/toby/jobs:
+total 12
+drwxrwxr-x 2 toby toby 4096 Dec  3 03:31 .
+drwxr-xr-x 6 toby toby 4096 Dec 12 15:25 ..
+-rwxr-xr-x 1 toby toby   46 Dec  3 03:31 cow.sh
+
+/home/will:
+total 36
+drwxr-xr-x 5 will will 4096 Dec  3 02:31 .
+drwxr-xr-x 6 root root 4096 Dec  3 02:06 ..
+lrwxrwxrwx 1 will will    9 Dec  3 02:31 .bash_history -> /dev/null
+-rw-r--r-- 1 will will  220 Dec  3 01:58 .bash_logout
+-rw-r--r-- 1 will will 3771 Dec  3 01:58 .bashrc
+drwx------ 2 will will 4096 Dec  3 01:58 .cache
+drwxr-x--- 3 will will 4096 Dec  3 02:19 .config
+drwx------ 3 will will 4096 Dec  3 02:12 .gnupg
+-rw-r--r-- 1 will will  807 Dec  3 01:58 .profile
+-rw-r--r-- 1 will will    0 Dec  3 01:58 .sudo_as_admin_successful
+-rw------- 1 will will   41 Dec  3 01:58 flag_6.txt
+ls: cannot open directory '/home/will/.cache': Permission denied
+ls: cannot open directory '/home/will/.config': Permission denied
+ls: cannot open directory '/home/will/.gnupg': Permission denied

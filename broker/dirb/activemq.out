@@ -1,0 +1,23 @@
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.15.17:8161
+[+] Threads:        40
+[+] Wordlist:       /opt/web/wordlists/SecLists/Discovery/Web-Content/common.txt
+[+] Status codes:   200,301,302,307,500
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     php,txt,html
+[+] Timeout:        10s
+===============================================================
+2021/03/13 01:02:55 Starting gobuster
+===============================================================
+/api (Status: 302)
+/favicon.ico (Status: 200)
+/images (Status: 302)
+/index.html (Status: 200)
+/index.html (Status: 200)
+/styles (Status: 302)
+===============================================================
+2021/03/13 01:05:49 Finished
+===============================================================

@@ -1,0 +1,17 @@
+# Nmap 7.91 scan initiated Fri Mar 12 12:42:36 2021 as: nmap -sC -sV -oN nmap/customport.init -p1000-10000 -v 10.10.10.108
+Nmap scan report for 10.10.10.108
+Host is up (0.37s latency).
+Not shown: 8999 closed ports
+PORT     STATE SERVICE VERSION
+1883/tcp open  mqtt?
+|_mqtt-subscribe: The script encountered an error: ssl failed
+8161/tcp open  http    Jetty 7.6.9.v20130131
+|_http-favicon: Unknown favicon MD5: 05664FB0C7AFCD6436179437E31F3AA6
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-server-header: Jetty(7.6.9.v20130131)
+|_http-title: Apache ActiveMQ
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Mar 12 12:50:26 2021 -- 1 IP address (1 host up) scanned in 470.26 seconds

@@ -1,0 +1,7 @@
+http://10.10.19.163:8001/.htaccess (Status: 403) [Size: 279]
+http://10.10.19.163:8001/.hta (Status: 403) [Size: 279]
+http://10.10.19.163:8001/.htpasswd (Status: 403) [Size: 279]
+http://10.10.19.163:8001/index.html (Status: 200) [Size: 2563]
+http://10.10.19.163:8001/server-status (Status: 403) [Size: 279]
+http://10.10.19.163:8001/web (Status: 301) [Size: 317]
+http://10.10.19.163:8001/zip (Status: 301) [Size: 317]

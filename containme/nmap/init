@@ -1,0 +1,23 @@
+# Nmap 7.91 scan initiated Wed Nov 17 12:33:34 2021 as: nmap -sC -sV -oN nmap/init -v 10.10.4.175
+Nmap scan report for 10.10.4.175
+Host is up (0.40s latency).
+Not shown: 992 closed ports
+PORT      STATE    SERVICE       VERSION
+6/tcp     filtered unknown
+2222/tcp  open     EtherNetIP-1?
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+2401/tcp  filtered cvspserver
+5000/tcp  filtered upnp
+5432/tcp  filtered postgresql
+8022/tcp  open     ssh           OpenSSH 7.7p1 Ubuntu 4ppa1+obfuscated (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 dc:ae:ea:27:3f:ab:10:ae:8c:2e:b3:0c:5b:d5:42:bc (RSA)
+|   256 67:29:75:04:74:1b:83:d3:c8:de:6d:65:fe:e6:07:35 (ECDSA)
+|_  256 7f:7e:89:c4:e0:a0:da:92:6e:a6:70:45:fc:43:23:84 (ED25519)
+9929/tcp  filtered nping-echo
+65129/tcp filtered unknown
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov 17 12:38:05 2021 -- 1 IP address (1 host up) scanned in 271.01 seconds

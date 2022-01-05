@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sat Feb 13 12:25:21 2021 as: nmap -sS -sV -oA nmap/allports -p- -v 10.10.241.213 -->
+<nmaprun scanner="nmap" args="nmap -sS -sV -oA nmap/allports -p- -v 10.10.241.213" start="1613190321" startstr="Sat Feb 13 12:25:21 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1613190321"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.241.213" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1613190321" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1613190321"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1613190321"/>
+<taskbegin task="SYN Stealth Scan" time="1613190321"/>
+<taskprogress task="SYN Stealth Scan" time="1613190352" percent="12.26" remaining="222" etc="1613190574"/>
+<taskprogress task="SYN Stealth Scan" time="1613190382" percent="15.29" remaining="338" etc="1613190720"/>
+<taskprogress task="SYN Stealth Scan" time="1613190412" percent="17.76" remaining="422" etc="1613190833"/>
+<taskprogress task="SYN Stealth Scan" time="1613190442" percent="20.11" remaining="481" etc="1613190923"/>
+<taskprogress task="SYN Stealth Scan" time="1613190472" percent="21.89" remaining="539" etc="1613191011"/>
+<taskprogress task="SYN Stealth Scan" time="1613190502" percent="23.62" remaining="586" etc="1613191087"/>
+<taskprogress task="SYN Stealth Scan" time="1613190565" percent="28.12" remaining="624" etc="1613191189"/>
+<taskprogress task="SYN Stealth Scan" time="1613190628" percent="31.45" remaining="670" etc="1613191297"/>
+<taskprogress task="SYN Stealth Scan" time="1613190943" percent="50.08" remaining="620" etc="1613191563"/>
+<taskprogress task="SYN Stealth Scan" time="1613191072" percent="57.43" remaining="557" etc="1613191629"/>
+<taskprogress task="SYN Stealth Scan" time="1613191186" percent="63.85" remaining="490" etc="1613191676"/>
+<taskprogress task="SYN Stealth Scan" time="1613191312" percent="70.25" remaining="420" etc="1613191732"/>
+<taskprogress task="SYN Stealth Scan" time="1613191420" percent="75.96" remaining="348" etc="1613191768"/>
+<taskprogress task="SYN Stealth Scan" time="1613191507" percent="81.26" remaining="274" etc="1613191781"/>
+<taskprogress task="SYN Stealth Scan" time="1613191591" percent="86.43" remaining="200" etc="1613191790"/>
+<taskprogress task="SYN Stealth Scan" time="1613191696" percent="91.68" remaining="125" etc="1613191821"/>
+<taskprogress task="SYN Stealth Scan" time="1613191789" percent="96.72" remaining="50" etc="1613191839"/>
+<taskend task="SYN Stealth Scan" time="1613191865" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1613191865"/>
+<taskend task="Service scan" time="1613191871" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1613191871"/>
+<taskend task="NSE" time="1613191873"/>
+<taskbegin task="NSE" time="1613191873"/>
+<taskend task="NSE" time="1613191875"/>
+<host starttime="1613190321" endtime="1613191875"><status state="up" reason="reset" reason_ttl="61"/>
+<address addr="10.10.241.213" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="resets" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="ssh" product="OpenSSH" version="7.2p2 Ubuntu 4ubuntu2.10" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2p2</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="8001"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="http" product="Apache httpd" version="2.4.18" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.18</cpe></service></port>
+</ports>
+<times srtt="366641" rttvar="2406" to="376265"/>
+</host>
+<runstats><finished time="1613191875" timestr="Sat Feb 13 12:51:15 2021" summary="Nmap done at Sat Feb 13 12:51:15 2021; 1 IP address (1 host up) scanned in 1554.11 seconds" elapsed="1554.11" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

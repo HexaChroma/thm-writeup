@@ -1,0 +1,592 @@
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+Debian [01;31m[KOpenSSH[m[K - (Authenticated) Rem | linux/remote/6094.txt
+Dropbear / [01;31m[KOpenSSH[m[K Server - 'MAX_UNA | multiple/dos/1572.pl
+FreeBSD [01;31m[KOpenSSH[m[K 3.5p1 - Remote Comma | freebsd/remote/17462.txt
+glibc-2.2 / [01;31m[Kopenssh[m[K-2.3.0p1 / glibc  | linux/local/258.sh
+Novell Netware 6.5 - [01;31m[KOpenSSH[m[K Remote  | novell/dos/14866.txt
+[01;31m[KOpenSSH[m[K 1.2 - '.scp' File Create/Ove | linux/remote/20253.sh
+[01;31m[KOpenSSH[m[K 2.3 < 7.7 - Username Enumera | linux/remote/45210.py
+[01;31m[KOpenSSH[m[K 2.3 < 7.7 - Username Enumera | linux/remote/45233.py
+[01;31m[KOpenSSH[m[K 2.x/3.0.1/3.0.2 - Channel Co | unix/remote/21314.txt
+[01;31m[KOpenSSH[m[K 2.x/3.x - Kerberos 4 TGT/AFS | linux/remote/21402.txt
+[01;31m[KOpenSSH[m[K 3.x - Challenge-Response Buf | unix/remote/21578.txt
+[01;31m[KOpenSSH[m[K 3.x - Challenge-Response Buf | unix/remote/21579.txt
+[01;31m[KOpenSSH[m[K 4.3 p1 - Duplicated Block Re | multiple/dos/2444.sh
+[01;31m[KOpenSSH[m[K 6.8 < 6.9 - 'PTY' Local Priv | linux/local/41173.c
+[01;31m[KOpenSSH[m[K 7.2 - Denial of Service      | linux/dos/40888.py
+[01;31m[KOpenSSH[m[K 7.2p1 - (Authenticated) xaut | multiple/remote/39569.py
+[01;31m[KOpenSSH[m[K 7.2p2 - Username Enumeration | linux/remote/40136.py
+[01;31m[KOpenSSH[m[K < 6.6 SFTP (x64) - Command E | linux_x86-64/remote/45000.c
+[01;31m[KOpenSSH[m[K < 6.6 SFTP - Command Executi | linux/remote/45001.py
+[01;31m[KOpenSSH[m[K < 7.4 - 'UsePrivilegeSeparat | linux/local/40962.txt
+[01;31m[KOpenSSH[m[K < 7.4 - agent Protocol Arbit | linux/remote/40963.txt
+[01;31m[KOpenSSH[m[K < 7.7 - User Enumeration (2) | linux/remote/45939.py
+[01;31m[KOpenSSH[m[K SCP Client - Write Arbitrary | multiple/remote/46516.py
+[01;31m[KOpenSSH[m[K/PAM 3.6.1p1 - 'gossh.sh' Rem | linux/remote/26.sh
+[01;31m[KOpenSSH[m[K/PAM 3.6.1p1 - Remote Users D | linux/remote/25.c
+[01;31m[KOpenSSH[m[Kd 7.2p2 - Username Enumeratio | linux/remote/40113.txt
+Portable [01;31m[KOpenSSH[m[K 3.6.1p-PAM/4.1-SuSE | multiple/remote/3303.sh
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+3Com SuperStack II PS Hub 40 - Telne | hardware/remote/21011.pl
+602Pro LAN SUITE 2002 - [01;31m[KTelnet[m[K Proxy | windows/dos/21694.pl
+Absolute[01;31m[KTelnet[m[K 10.16 - 'License name | windows/dos/46874.py
+Absolute[01;31m[KTelnet[m[K 11.12 - 'license name | windows/dos/48006.py
+Absolute[01;31m[KTelnet[m[K 11.12 - 'SSH1/usernam | windows/dos/48305.py
+Absolute[01;31m[KTelnet[m[K 11.12 - 'SSH2/usernam | windows/dos/48010.py
+Absolute[01;31m[KTelnet[m[K 11.12 - _license name | windows/dos/48005.py
+Absolute[01;31m[KTelnet[m[K 11.21 - 'Username' De | windows/dos/48493.py
+APC WEB/SNMP Management Card (9606)  | hardware/dos/20654.pl
+Apple Mac OSX 10.2 - Terminal.APP Te | osx/local/21815.txt
+Arescom NetDSL-1000 - '[01;31m[KTelnet[m[KD' Remo | hardware/dos/1464.c
+Beck IPC GmbH IPC@CHIP - [01;31m[KTelnet[m[KD Log | multiple/remote/20881.txt
+BSD - '[01;31m[KTelnet[m[KD' Remote Command Execu | bsd/remote/19520.txt
+BSD - '[01;31m[KTelnet[m[KD' Remote Command Execu | bsd/remote/409.c
+Byte Fusion BF[01;31m[KTelnet[m[K 1.1 - Long User | windows/dos/19596.txt
+CCProxy 6.2 - [01;31m[KTelnet[m[K Proxy Ping Over | windows/remote/4360.rb
+Celestial Software Absolute[01;31m[KTelnet[m[K 2. | windows/remote/22229.pl
+D-Link Devices - UPnP SOAP [01;31m[KTelnet[m[KD C | unix/remote/28333.rb
+FreeBSD - [01;31m[KTelnet[m[K Service Encryption  | bsd/remote/18369.rb
+FreeBSD 7.0-RELEASE - [01;31m[KTelnet[m[K Daemon  | freebsd/local/8055.txt
+GNU inetutils < 1.9.4 - '[01;31m[Ktelnet[m[K.c' M | linux/dos/45982.txt
+GoodTech [01;31m[KTelnet[m[K Server 4.0 - Remote  | windows/dos/23506.txt
+GoodTech [01;31m[KTelnet[m[K Server 5.0.6 - Remot | windows/remote/16817.rb
+GoodTech [01;31m[KTelnet[m[K Server < 5.0.7 - Buf | windows/dos/882.cpp
+GoodTech [01;31m[KTelnet[m[K Server < 5.0.7 - Rem | windows/remote/883.c
+GoodTech [01;31m[KTelnet[m[K Server NT 2.2.1 - De | windows/dos/19666.txt
+Herospeed - '[01;31m[KTelnet[m[KSwitch' Remote St | hardware/remote/43997.py
+Hilgraeve HyperTerminal 6.0 - [01;31m[KTelnet[m[K | windows/dos/20307.txt
+IRIX 5.2/5.3/6.x - [01;31m[KTelnet[m[KD Environme | irix/remote/20149.c
+Jordan Windows [01;31m[KTelnet[m[K Server 1.0/1.2 | windows/remote/23491.pl
+Jordan Windows [01;31m[KTelnet[m[K Server 1.0/1.2 | windows/remote/23492.c
+Jordan Windows [01;31m[KTelnet[m[K Server 1.0/1.2 | windows/remote/23493.txt
+Kroum Grigorov KpyM [01;31m[KTelnet[m[K Server 1. | windows/dos/23530.c
+Linux BSD-derived [01;31m[KTelnet[m[K Service Enc | linux/remote/18368.rb
+Microsoft Internet Explorer 5.0.1/5. | windows/remote/20680.html
+Microsoft Windows 95/98 Internet Exp | windows/local/19462.c
+Microsoft Windows NT 3.5.1 SP2/3.5.1 | windows/remote/19113.txt
+Microsoft Windows Server 2000 - 'tel | windows/remote/20222.cpp
+Microsoft Windows Server 2000 - Teln | windows/dos/20047.txt
+Microsoft Windows Server 2000 - Teln | windows/dos/20907.sh
+Mocha [01;31m[KTelnet[m[K Lite for iOS 4.2 - 'Use | windows/dos/48728.py
+Multiple Vendor [01;31m[KTelnet[m[K Client - Env_ | linux/dos/25303.txt
+Netgear - '[01;31m[KTelnet[m[KEnable' Magic Packe | hardware/remote/44245.rb
+netkit-[01;31m[Ktelnet[m[K-0.17 [01;31m[Ktelnet[m[Kd (Fedora 3 | linux/remote/48170.py
+NUUO NVRMini2 3.8 - 'cgi_system' Buf | hardware/remote/45427.py
+Polycom HDX - [01;31m[KTelnet[m[K Authentication  | hardware/remote/24494.rb
+Pragma Systems InterAccess [01;31m[KTelnet[m[KD S | windows/dos/19755.txt
+Pragma Systems InterAccess [01;31m[KTelnet[m[KD S | windows/dos/19760.txt
+Pragma Systems InterAccess [01;31m[KTelnet[m[KD S | windows/dos/20904.pl
+Pragma [01;31m[KTelnet[m[KServer 7.0.4.589 - NULL | multiple/dos/30991.txt
+PragmaSys [01;31m[KTelnet[m[KServer 2000 - rexec  | windows/dos/20175.pl
+ProFTPd 1.3.2 rc3 < 1.3.3b (FreeBSD) | linux/remote/16878.rb
+ProFTPd 1.3.2 rc3 < 1.3.3b (Linux) - | linux/remote/16851.rb
+Sagem F@st 3304-V2 - [01;31m[KTelnet[m[K Crash (P | hardware/dos/36309.py
+Sagem Router Fast 3304/3464/3504 - T | hardware/remote/17670.py
+Solaris 10/11 [01;31m[KTelnet[m[K - Remote Authen | solaris/remote/9918.rb
+Solaris 2.6/7/8 - 'TTYPROMPT in.teln | solaris/remote/57.txt
+Solaris 2.x/7.0/8 / IRIX 6.5.x / Ope | unix/remote/21018.c
+Solaris [01;31m[KTelnet[m[KD - 'TTYPROMPT' Remote | solaris/remote/16327.rb
+Solaris [01;31m[KTelnet[m[KD - 'TTYPROMPT' Remote | solaris/remote/9917.rb
+Sun Solaris [01;31m[KTelnet[m[K - Remote Authenti | solaris/remote/16328.rb
+SunOS 5.10/5.11 in.[01;31m[KTelnet[m[KD - Remote  | solaris/remote/3293.sh
+[01;31m[KTelnet[m[K-Ftp Service Server 1.x - (Aut | windows/remote/8273.c
+[01;31m[KTelnet[m[KD encrypt_keyid - Function Poi | linux/remote/18280.c
+Verso NetPerformer Frame Relay Acces | multiple/dos/28542.pl
+------------------------------------- ---------------------------------
+------------------------------------- ---------------------------------
+ Shellcode Title                     |  Path
+------------------------------------- ---------------------------------
+Google Android - Bind (1035/TCP) Tel | android/38194.c
+Linux/MIPS (Little Endian) - system( | linux_mips/27132.txt
+Linux/x86 - Reverse (200.182.207.235 | linux_x86/13435.c
+Windows/x86 - Add Administrator User | windows_x86/13508.asm
+------------------------------------- ---------------------------------
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+AA [01;31m[KSMTP[m[K Server 1.1 - Crash (PoC)     | windows/dos/14990.txt
+Alt-N MDaemon 6.5.1 - IMAP/[01;31m[KSMTP[m[K Remo | windows/remote/473.c
+Alt-N MDaemon 6.5.1 [01;31m[KSMTP[m[K Server - Mu | windows/remote/24624.c
+Alt-N MDaemon Server 2.71 SP1 - [01;31m[KSMTP[m[K | windows/dos/23146.c
+Apache James Server 2.2 - [01;31m[KSMTP[m[K Denia | multiple/dos/27915.pl
+BaSoMail 1.24 - [01;31m[KSMTP[m[K Server Command  | windows/dos/22668.txt
+BaSoMail Server 1.24 - POP3/[01;31m[KSMTP[m[K Rem | windows/dos/594.pl
+BL4 [01;31m[KSMTP[m[K Server < 0.1.5 - Remote Buf | windows/dos/1721.pl
+Blat 2.7.6 [01;31m[KSMTP[m[K / NNTP Mailer - Loca | windows/local/38472.py
+BulletProof FTP Server 2019.0.0.50 - | windows/dos/46422.py
+Cisco PIX Firewall 4.x/5.x - [01;31m[KSMTP[m[K Co | hardware/remote/20231.txt
+Citadel [01;31m[KSMTP[m[K 7.10 - Remote Overflow  | windows/remote/4949.txt
+Cobalt Raq3 PopRelayD - Arbitrary SM | linux/remote/20994.txt
+CodeBlue 5.1 - [01;31m[KSMTP[m[K Response Buffer  | windows/remote/21643.c
+CommuniCrypt Mail 1.16 - 'AN[01;31m[KSMTP[m[K.dll | windows/remote/12663.html
+CommuniCrypt Mail 1.16 - [01;31m[KSMTP[m[K Active | windows/remote/16566.rb
+Computalynx CMail 2.3 SP2/2.4 - [01;31m[KSMTP[m[K | windows/remote/19495.c
+DeepOfix [01;31m[KSMTP[m[K Server 3.3 - Authentic | linux/remote/29706.txt
+d[01;31m[KSMTP[m[K Mail Server 3.1b (Linux) - For | linux/remote/981.c
+EasyMail Objects 'EM[01;31m[KSMTP[m[K.DLL 6.0.1'  | windows/remote/10007.html
+EType EServ 2.9x - [01;31m[KSMTP[m[K Remote Denia | windows/dos/22123.pl
+Eudora 7.1 - [01;31m[KSMTP[m[K ResponseRemote Rem | windows/remote/3934.py
+Exim E[01;31m[KSMTP[m[K 4.80 - glibc gethostbynam | linux/dos/35951.py
+FloosieTek FTGate PRO 1.22 - [01;31m[KSMTP[m[K MA | windows/dos/22568.pl
+FloosieTek FTGate PRO 1.22 - [01;31m[KSMTP[m[K RC | windows/dos/22569.pl
+Free [01;31m[KSMTP[m[K Server 2.2 - Spam Filter   | windows/remote/1193.pl
+Free [01;31m[KSMTP[m[K Server 2.5 - Denial of Ser | windows/dos/46937.py
+GoodTech [01;31m[KSMTP[m[K Server 5.14 - Denial o | windows/dos/1162.pl
+Hastymail 1.x - IMAP [01;31m[KSMTP[m[K Command In | php/webapps/28777.txt
+i.Scribe [01;31m[KSMTP[m[K Client 2.00b - 'wscanf | windows/dos/7249.php
+Inetserv 3.23 - [01;31m[KSMTP[m[K Denial of Servi | windows/dos/16035.py
+Inframail Advantage Server Edition 6 | windows/dos/1165.pl
+Ipswitch Imail Server 5.0 - [01;31m[KSMTP[m[K HEL | windows/dos/23145.c
+iScripts AutoHoster - 'main_[01;31m[Ksmtp[m[K.php | php/webapps/38889.txt
+Jack De Winter Win[01;31m[KSMTP[m[K 1.6 f/2.0 - B | windows/dos/20221.pl
+LeadTools Imaging LEAD[01;31m[KSmtp[m[K - ActiveX | windows/remote/35880.html
+Lotus Domino 4.6.1/4.6.4 Notes - SMT | multiple/dos/19368.sh
+Lotus Domino [01;31m[KSMTP[m[K Router & Email Ser | multiple/dos/17549.txt
+MailEnable 1.x - [01;31m[KSMTP[m[K 'HELO' Remote  | windows/dos/28103.pl
+MailEnable 2.x - [01;31m[KSMTP[m[K NTLM Multiple  | windows/dos/28735.pl
+MailEnable 3.13 [01;31m[KSMTP[m[K Service - 'VRFY | windows/dos/5235.py
+MailEnable Enterprise 1.x - [01;31m[KSMTP[m[K Rem | windows/dos/916.pl
+MAILsweeper [01;31m[KSMTP[m[K 4.2.1 + F-Secure An | windows/dos/21006.txt
+Mailtraq 2.1.0.1302 - Remote Format  | windows/dos/22780.txt
+Majordomo2 - '[01;31m[KSMTP[m[K/HTTP' Directory T | multiple/remote/16103.txt
+MDaemon [01;31m[KSMTP[m[K Server 5.0.5 - Null Pas | windows/remote/23002.txt
+Mercury/32 Mail Server 3.32 < 4.51 - | windows/remote/4316.cpp
+Mercury/32 Mail [01;31m[KSMTP[m[KD - AUTH CRAM-MD | windows/remote/16821.rb
+Mercury/32 Mail [01;31m[KSMTP[m[KD - Remote Stack | windows/dos/4294.pl
+Mercury/32 Mail [01;31m[KSMTP[m[KD 4.51 - [01;31m[KSMTP[m[KD C | windows/remote/4301.cpp
+Microsoft Exchange Server 4.0/5.0 -  | windows/remote/23113.c
+Microsoft IIS 4.0/5.0 - [01;31m[KSMTP[m[K Service | windows/remote/21613.txt
+Microsoft Windows - ANI LoadAniIcon( | windows/remote/16698.rb
+MIMEsweeper For [01;31m[KSMTP[m[K - Multiple Cros | asp/webapps/38318.txt
+Mock [01;31m[KSMTP[m[K Server 1.0 - Remote Crash  | windows/dos/37954.py
+nb[01;31m[KSMTP[m[K 0.99 - 'util.c' Client-Side C | linux/remote/1138.c
+NetcPlus SmartServer 3.5.1 - [01;31m[KSMTP[m[K Bu | windows/remote/19494.c
+Network Associates Webshield [01;31m[KSMTP[m[K 4. | windows/dos/20432.txt
+NJStar Communicator 3.00 - Mini[01;31m[KSMTP[m[K  | windows/remote/18057.rb
+NJStar Communicator Mini[01;31m[KSmtp[m[K - Buffe | windows/dos/18196.py
+Open[01;31m[KSMTP[m[KD - MAIL FROM Remote Code Ex | linux/remote/48038.rb
+Open[01;31m[KSMTP[m[KD - OOB Read Local Privilege | linux/local/48185.rb
+Open[01;31m[KSMTP[m[KD 6.4.0 < 6.6.1 - Local Priv | openbsd/remote/48051.pl
+Open[01;31m[KSMTP[m[KD 6.6.2 - Remote Code Execut | linux/remote/47984.py
+Open[01;31m[KSMTP[m[KD 6.6.3 - Arbitrary File Rea | linux/remote/48139.c
+Open[01;31m[KSMTP[m[KD < 6.6.3p1 - Local Privileg | openbsd/remote/48140.c
+Postcast Server Pro 3.0.61 / Quiksof | windows/remote/4328.html
+Postfix [01;31m[KSMTP[m[K 4.2.x < 4.2.48 - 'Shell | linux/remote/34896.py
+Python [01;31m[Ksmtp[m[Klib 2.7.11 / 3.4.4 / 3.5. | multiple/local/43500.txt
+QK [01;31m[KSMTP[m[K 3.01 - 'RCPT TO' Remote Buff | windows/remote/2649.c
+QK [01;31m[KSMTP[m[K 3.01 - 'RCPT TO' Remote Buff | windows/remote/3067.txt
+QK [01;31m[KSMTP[m[K 3.01 - 'RCPT TO' Remote Deni | windows/dos/2625.c
+QK [01;31m[KSMTP[m[K Server - Malformed Commands  | multiple/dos/30885.txt
+Qmail [01;31m[KSMTP[m[K - Bash Environment Variab | linux/remote/42938.rb
+Qmail [01;31m[KSMTP[m[K 1.03 - Bash Environment V | multiple/remote/48651.txt
+Qwik [01;31m[KSMTP[m[K 0.3 - Format String        | linux/remote/620.c
+Sitemagic CMS - '[01;31m[KSMTp[m[Kl' Directory Tr | php/webapps/35877.txt
+SmartMax MailMax 1.0 - [01;31m[KSMTP[m[K Buffer O | windows/remote/20600.c
+Softek MailMarshal 4 / Trend Micro S | multiple/remote/21029.pl
+SoftiaCom wMailServer 1.0 - [01;31m[KSMTP[m[K Rem | windows/remote/1463.pm
+SPECTral Personal [01;31m[KSMTP[m[K Server 0.4.2  | windows/dos/899.pl
+SquirrelMail PGP Plugin - Command Ex | linux/remote/16888.rb
+s[01;31m[KSMTP[m[K 2.62 - 'standardize()' Buffer  | linux/dos/34375.txt
+SynaMan 4.0 build 1488 - [01;31m[KSMTP[m[K Creden | windows/webapps/45387.txt
+SysGauge 1.5.18 - [01;31m[KSMTP[m[K Validation Bu | windows/remote/41672.rb
+TABS MailCarrier 2.51 - [01;31m[KSMTP[m[K 'EHLO'  | windows/remote/598.py
+TABS MailCarrier 2.51 - [01;31m[KSMTP[m[K EHLO Ov | windows/remote/16822.rb
+YahooPOPs 1.6 - [01;31m[KSMTP[m[K Port Buffer Ove | windows/remote/577.c
+YahooPOPs 1.6 - [01;31m[KSMTP[m[K Remote Buffer O | windows/remote/582.c
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+[01;31m[KApache[m[K 0.8.x/1.0.x / NCSA [01;31m[KHTTPd[m[K 1.x  | cgi/remote/20435.txt
+[01;31m[KApache[m[K 1.1 / NCSA [01;31m[KHTTPd[m[K 1.5.2 / Nets | multiple/dos/19536.txt
+[01;31m[KApache[m[K [01;31m[KHttpd[m[K mod_proxy - Error Page  | multiple/webapps/47688.md
+[01;31m[KApache[m[K [01;31m[KHttpd[m[K mod_rewrite - Open Redi | multiple/webapps/47689.md
+NCSA 1.3/1.4.x/1.5 / [01;31m[KApache[m[K [01;31m[KHTTPd[m[K 0. | multiple/remote/20595.txt
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+Cygnus Network [01;31m[KSec[m[Kurity 4.0/KerbNet  | bsd/remote/19924.c
+Cygnus Network [01;31m[KSec[m[Kurity 4.0/KerbNet  | linux/local/19925.c
+Cygnus Network [01;31m[KSec[m[Kurity 4.0/KerbNet  | linux/remote/19926.c
+Microsoft Windows - [01;31m[KKerberos[m[K [01;31m[KSec[m[Kurit | windows/local/39442.txt
+Microsoft Windows [01;31m[KKerberos[m[K - 'Pass T | windows/remote/34462.txt
+Microsoft Windows [01;31m[KKerberos[m[K - [01;31m[KSec[m[Kurit | windows/local/40409.txt
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+ActiveFax Server 6.92 Build 0316 - ' | windows/dos/47495.py
+Alt-N MDaemon [01;31m[KPOP3[m[K Server < 9.06 - ' | windows/remote/2258.py
+Axigen eMail Server 2.0.0b2 - '[01;31m[Kpop3[m[K' | linux/remote/3329.c
+BaSoMail 1.24 - [01;31m[KPOP3[m[K Server Denial o | windows/dos/22667.txt
+BaSoMail Server 1.24 - [01;31m[KPOP3[m[K/SMTP Rem | windows/dos/594.pl
+Cyrus IMAPD - [01;31m[Kpop3[m[Kd popsubfolders US | linux/remote/16836.rb
+Cyrus IMAPD 2.3.2 - '[01;31m[Kpop3[m[Kd' Remote B | linux/remote/1813.c
+Cyrus IMAPD 2.3.2 - '[01;31m[Kpop3[m[Kd' Remote B | linux/remote/2185.pl
+Cyrus IMAPD 2.3.2 - '[01;31m[Kpop3[m[Kd' Remote B | multiple/remote/2053.rb
+DMS [01;31m[KPOP3[m[K Server 1.5.3 build 37 - Rem | windows/remote/644.pl
+EType EServ 2.9x - [01;31m[KPOP3[m[K Remote Denia | windows/dos/22122.pl
+eXchange [01;31m[KPOP3[m[K 5.0.050203 - RPCT TO R | windows/remote/1466.pl
+Fetchmail 5.x - [01;31m[KPOP3[m[K Reply Signed In | unix/remote/21064.c
+Foxmail 1.1.0.1 - [01;31m[KPOP3[m[K Temp Dir Stac | windows/remote/854.cpp
+Gattaca Server 2003 [01;31m[KPOP3[m[K - Denial of | multiple/dos/24283.txt
+Hexamail Server 3.0.0.001 - '[01;31m[Kpop3[m[K' R | windows/dos/4344.php
+Inetserv 3.23 [01;31m[KPOP3[m[K - Denial of Servi | windows/dos/16038.py
+Ipswitch IMail 5.0.5/5.0.6/5.0.7 - P | windows/dos/19616.c
+Kinesphere Corporation Exchange [01;31m[KPOP3[m[K | windows/remote/24028.pl
+Magic Winmail Server 2.3 USER [01;31m[KPOP3[m[K - | windows/remote/22635.c
+MailCarrier 2.51 - [01;31m[KPOP3[m[K 'LIST' SEH B | windows/remote/46700.py
+MailCarrier 2.51 - [01;31m[KPOP3[m[K 'RETR' SEH B | windows/remote/46719.py
+MailCarrier 2.51 - [01;31m[KPOP3[m[K 'TOP' SEH Bu | windows/remote/46701.py
+MailCarrier 2.51 - [01;31m[KPOP3[m[K 'USER' Buffe | windows/remote/46699.py
+MailMax 4.6 - [01;31m[KPOP3[m[K 'USER' Remote Buf | windows/remote/18683.py
+MDaemon [01;31m[KPOP3[m[K Server < 9.06 - 'USER'  | windows/dos/2245.pl
+Netscape 4.x/6.x / Mozilla 0.9.x - M | multiple/dos/21539.c
+Noticeware E-mail Server 5.1.2.2 - ' | windows/dos/6719.py
+Oracle Document Capture - 'em[01;31m[Kpop3[m[K.dl | windows/remote/16055.txt
+PSCS V[01;31m[KPOP3[m[K 2.0 - Email Server Remote | multiple/dos/24305.txt
+PSCS V[01;31m[KPOP3[m[K 2.0 Email Server WebAdmin | multiple/remote/23271.txt
+Seattle Lab Mail (SLmail) 5.5 - [01;31m[KPOP3[m[K | windows/remote/16399.rb
+Seattle Lab Mail (SLmail) 5.5 - [01;31m[KPOP3[m[K | windows/remote/638.py
+Seattle Lab Mail (SLmail) 5.5 - [01;31m[KPOP3[m[K | windows/remote/643.c
+Seattle Lab Mail (SLmail) 5.5 - [01;31m[KPOP3[m[K | windows/remote/646.c
+t[01;31m[KPop3[m[Kd 1.5.3 - Denial of Service     | linux/dos/11893.pl
+UebiMiau 2.7.10 - '/demo/[01;31m[Kpop3[m[K/error. | php/webapps/30097.txt
+UebiMiau 2.7.10 - '/demo/[01;31m[Kpop3[m[K/error. | php/webapps/30098.txt
+V[01;31m[Kpop3[m[Kd - Remote Denial of Service    | windows/dos/23053.pl
+Win10 MailCarrier 2.51 - '[01;31m[KPOP3[m[K User' | windows/remote/47554.py
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+Apache mod_rewrite - [01;31m[KLDAP[m[K protocol B | windows/remote/16752.rb
+Apple Mac OSX 10.4.x - Open[01;31m[KLDAP[m[K Deni | osx/dos/28135.pl
+Barracuda Spam Firewall 3.5.11 - 'ld | hardware/remote/31828.txt
+Claroline E-Learning 1.75 - '[01;31m[Kldap[m[K.in | php/webapps/1766.pl
+CommuniGate Pro 5.0.6 - Server [01;31m[KLDAP[m[K  | linux/dos/27144.py
+Dokeos Lms 1.6.4 - 'auth[01;31m[Kldap[m[K.php' Re | php/webapps/1765.pl
+FortiGate FortiOS < 6.0.3 - [01;31m[KLDAP[m[K Cre | hardware/webapps/46171.py
+IBM iSeries AS400 [01;31m[KLDAP[m[K Server - Remo | unix/remote/25335.txt
+IBM Lotus Domino [01;31m[KLDAP[m[K - Bind Request | windows/dos/16190.pl
+IBM Tivoli Directory Server 6.0 - LD | multiple/dos/27196.txt
+Intel Corporation Shiva Access Manag | solaris/local/20003.txt
+Ipswitch IMail 5.0 - [01;31m[KLDAP[m[K Buffer Ove | multiple/dos/19378.txt
+IPSwitch IMail [01;31m[KLDAP[m[K Daemon/Service - | windows/remote/157.c
+IPSwitch IMail [01;31m[KLDAP[m[K Daemon/Service - | windows/remote/16824.rb
+Isode M-Vault Server 11.3 - [01;31m[KLDAP[m[K Mem | multiple/dos/27212.txt
+Kerio MailServer 5.x/6.x - Remote LD | windows/dos/29039.py
+[01;31m[KLDAP[m[K - Injection                     | multiple/local/11364.txt
+[01;31m[KLDAP[m[K Account Manager 3.4.0 - 'selfse | php/webapps/35684.txt
+Lemon[01;31m[KLDAP[m[K:NG 0.9.3.1 - User Enumerat | cgi/webapps/32734.txt
+Lotus Domino 7.0.x/8.0/8.5 - [01;31m[KLDAP[m[K Me | multiple/dos/27730.py
+McAfee Security Center IsO[01;31m[KldAp[m[KpInsta | windows/remote/3893.c
+Microsoft Active Directory [01;31m[KLDAP[m[K Serv | windows/remote/32586.py
+Microsoft Windows Server 2008/2012 - | windows/dos/40703.pl
+NetIQ Privileged User Manager 2.3.1  | windows/remote/22903.rb
+Netscape Professional Services FTP S | unix/remote/20046.txt
+Network Associates PGP KeyServer 7 - | windows/remote/16823.rb
+Novell eDirectory 8.8 and Netware LD | multiple/dos/35753.pl
+Novell eDirectory 883ftf3 - n[01;31m[Kldap[m[K mo | windows/dos/10062.py
+Novell Groupwise Internet Agent - LD | windows/dos/22707.txt
+Novell NetIQ Privileged User Manager | windows/remote/22738.txt
+Open[01;31m[KLDAP[m[K 1.2.7/1.2.8/1.2.9/1.2.10 -  | linux/local/19946.txt
+Open[01;31m[KLDAP[m[K 2.2.29 - Remote Denial of S | linux/dos/2730.pm
+Open[01;31m[KLDAP[m[K 2.3.39 - MODRDN Remote Deni | multiple/dos/10077.txt
+Open[01;31m[KLDAP[m[K 2.3.41 - BER Decoding Remot | linux/dos/32000.txt
+Open[01;31m[KLDAP[m[K 2.4.22 - 'modrdn' Multiple  | linux/dos/34348.txt
+Open[01;31m[KLDAP[m[K 2.4.3 - 'KBIND' Remote Buff | linux/remote/2933.c
+Open[01;31m[KLDAP[m[K 2.4.42 - ber_get_next Denia | linux/dos/38145.txt
+Open[01;31m[KLDAP[m[K 2.4.x - 'modrdn' NULL OldDN | linux/dos/35445.txt
+Oracle (oid[01;31m[Kldap[m[Kd connect) - Local Co | linux/local/183.c
+Oracle Internet Directory 10.1.2.0.2 | multiple/dos/33532.txt
+Oracle Internet Directory 2.0.6 - oi | linux/local/20312.c
+php[01;31m[KLDAP[m[Kadmin - Local File Inclusion  | php/webapps/10410.txt
+php[01;31m[KLDAP[m[Kadmin 0.9.4b - Denial of Serv | php/dos/18023.java
+php[01;31m[KLDAP[m[Kadmin 0.9.6/0.9.7 - 'welcome. | php/webapps/26211.txt
+php[01;31m[KLDAP[m[Kadmin 0.9.8 - 'compare_form.p | php/webapps/27717.txt
+php[01;31m[KLDAP[m[Kadmin 0.9.8 - 'copy_form.php' | php/webapps/27718.txt
+php[01;31m[KLDAP[m[Kadmin 0.9.8 - 'rename_form.ph | php/webapps/27719.txt
+php[01;31m[KLDAP[m[Kadmin 0.9.8 - 'search.php' Cr | php/webapps/27721.txt
+php[01;31m[KLDAP[m[Kadmin 0.9.8 - 'template_engin | php/webapps/27722.txt
+php[01;31m[KLDAP[m[Kadmin 1.2.0.5-2 - 'server_id' | php/webapps/36655.txt
+php[01;31m[KLDAP[m[Kadmin 1.2.1.1 - Remote PHP Co | php/webapps/18021.php
+php[01;31m[KLDAP[m[Kadmin 1.2.1.1 - Remote PHP Co | php/webapps/18031.rb
+php[01;31m[KLDAP[m[Kadmin 1.2.2 - 'base' Cross-Si | php/webapps/36654.txt
+php[01;31m[KLDAP[m[Kadmin 1.2.2 - 'server_id' LDA | php/webapps/44926.txt
+PineApp Mail-SeCure - '[01;31m[Kldap[m[Ksyncnow.p | php/remote/27294.rb
+SIDVault [01;31m[KLDAP[m[K Server - Remote Buffer | linux/remote/4315.py
+SmarterMail < 7.2.3925 - [01;31m[KLDAP[m[K Inject | asp/webapps/15189.txt
+Solaris 8 libs[01;31m[Kldap[m[K - Local Buffer Ov | solaris/local/20969.c
+Solaris 8 libs[01;31m[Kldap[m[K - Local Buffer Ov | solaris/local/20970.c
+Sun SUNWl[01;31m[Kldap[m[K Library Hostname - Loc | solaris/local/4.c
+Surge[01;31m[KLDAP[m[K 1.0 - 'User.cgi' Directory | cgi/remote/23987.txt
+Surge[01;31m[KLDAP[m[K 1.0 - Web Administration A | cgi/webapps/24094.txt
+Surge[01;31m[KLDAP[m[K 1.0 d - 'User.cgi' Cross-S | cgi/webapps/23025.txt
+Surge[01;31m[KLDAP[m[K 1.0 d - Full Path Disclosu | multiple/remote/23024.txt
+Symantec Brightmail 10.6.0-7 - [01;31m[KLDAP[m[K  | java/webapps/39715.rb
+WeBid - Multiple Cross-Site Scriptin | php/webapps/39249.txt
+Wireshark 0.99.8 - [01;31m[KLDAP[m[K Dissector De | linux/dos/31553.txt
+yaplap 0.6.1b - '[01;31m[Kldap[m[K.php' Remote Fi | php/webapps/2930.pl
+Zabbix 2.0.5 - Cleartext [01;31m[Kldap[m[K_bind_P | php/webapps/36157.rb
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+Apache Tomcat 6.0.16 - '[01;31m[KHttpS[m[KervletR | multiple/remote/32138.txt
+BugHunter HTTP Server 1.6.2 - '[01;31m[Khttps[m[K | windows/dos/9478.pl
+Cybrotech CyBro[01;31m[KHttpS[m[Kerver 1.0.3 - Cr | windows_x86-64/webapps/45309.txt
+Cybrotech CyBro[01;31m[KHttpS[m[Kerver 1.0.3 - Di | windows_x86-64/webapps/45303.txt
+Geo[01;31m[KHttpS[m[Kerver - Remote Denial of Ser | windows/dos/12531.pl
+GeoVision (Geo[01;31m[KHttpS[m[Kerver) Webcams -  | hardware/webapps/37258.py
+[01;31m[KHttpS[m[Kerver 1.0 - Directory Traversal | windows/remote/41638.txt
+Mabry Software [01;31m[KHTTPS[m[Kerver/X 1.0 0.04 | windows/remote/22892.txt
+MailEnable Enterprise & Professional | windows/remote/952.pl
+Mini[01;31m[KHTTPS[m[Kerver Web Forum & File Shar | windows/remote/2651.c
+Mini[01;31m[KHTTPS[m[Kerver Web Forums Server 1.x | windows/remote/22795.txt
+Novell eDirectory - [01;31m[KHTTPS[m[KTK Login St | windows/dos/10163.pl
+Novell eDirectory 8.x - iMonitor HTT | novell/remote/28835.pl
+Novell eDirectory 8.x - iMonitor HTT | novell/remote/28836.c
+Novell eDirectory 8.x - iMonitor HTT | novell/remote/28837.rb
+Novell Netware 6.0 / eDirectory 8.7  | novell/dos/22749.txt
+Python CGI[01;31m[KHTTPS[m[Kerver - Encoded Direc | multiple/webapps/33894.txt
+Sunway Force Control SCADA 6.1 SP3 - | windows/remote/17721.rb
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+Apache [01;31m[KSpamAssassin[m[K Milter Plugin 0. | multiple/remote/11662.txt
+[01;31m[KSpamAssassin[m[K spamd - Remote Command  | linux/remote/16920.rb
+[01;31m[KSpamAssassin[m[K spamd 3.1.3 - Command I | unix/remote/9914.rb
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+Eve[01;31m[KrSync[m[K 0.5 - Arbitrary File Downlo | php/webapps/45868.txt
+F5 Big-IP - [01;31m[Krsync[m[K Access             | hardware/remote/34465.txt
+MacOSXLabs [01;31m[KRsync[m[KX 2.1 - Insecure Tem | osx/local/24609.txt
+MacOSXLabs [01;31m[KRsync[m[KX 2.1 - Local Privil | osx/local/24608.txt
+[01;31m[Krsync[m[K 2.3/2.4/2.5 - Signed Array Ind | linux/remote/21242.c
+[01;31m[Krsync[m[K 2.5.1 - Remote (1)             | linux/remote/398.c
+[01;31m[Krsync[m[K 2.5.1 - Remote (2)             | linux/remote/399.c
+[01;31m[Krsync[m[K 2.5.7 - Local Stack Overflow / | linux/local/152.c
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+BSD 4.2 - '[01;31m[Kfinger[m[Kd' Remote Buffer Ov | bsd/remote/19039.txt
+c[01;31m[Kfinger[m[Kd 1.4 - Format String (1)     | linux/remote/20748.pl
+c[01;31m[Kfinger[m[Kd 1.4 - Format String (2)     | linux/remote/20749.c
+c[01;31m[Kfinger[m[Kd 1.4.1/1.4.2/1.4.3 Utilities | unix/local/20962.pl
+c[01;31m[Kfinger[m[Kd 1.4.1/1.4.2/1.4.3 Utilities | unix/local/20963.c
+c[01;31m[Kfinger[m[Kd 1.4.1/1.4.2/1.4.3 Utilities | unix/local/20964.c
+Daniel Beckham The [01;31m[KFinger[m[K Server 0.8 | cgi/remote/19745.txt
+[01;31m[KFinger[m[KTec [01;31m[KFinger[m[Kprint Reader - Remot | hardware/remote/39227.txt
+GNU F[01;31m[Kfinger[m[Kd 1.19 - 'Username' Valid | unix/remote/20327.txt
+Granding MA300 - Traffic Sniffing Ma | multiple/remote/39292.pl
+Martin Schulze C[01;31m[Kfinger[m[Kd 1.4.2 - GECO | freebsd/local/19504.c
+Morris Worm - [01;31m[Kfinger[m[Kd Stack Buffer O | bsd/remote/45791.rb
+OpenVms 8.3 [01;31m[KFinger[m[K Service - Stack B | multiple/dos/32193.txt
+SD[01;31m[KFinger[m[KD 1.1 - Failure To Drop Priv | linux/local/22806.sh
+Windows TCPIP [01;31m[KFinger[m[K Command - C2 Ch | windows/local/48815.txt
+zk[01;31m[Kfinger[m[Kd 0.9.1 - 'say()' Format Str | linux/remote/22101.c
+zk[01;31m[Kfinger[m[Kd SysLog 0.9.1 - Format Stri | linux/remote/22091.c
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+GNU [01;31m[KZebra[m[K 0.9x / Quagga 0.96 - Remot | linux/dos/23375.txt
+[01;31m[KZebra[m[KFeeds 1.0 - 'zf_path' Remote Fi | php/webapps/3314.txt
+ZYXEL ZyWALL Quagga/[01;31m[KZebra[m[K - 'Default | hardware/remote/5289.txt
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+Quagga Routing Software Suite 0.9x - | linux/remote/27801.txt
+Quagga Routing Software Suite 0.9x - | linux/remote/27802.txt
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+6Tunnel 0.6/0.7/0.8 - [01;31m[KConnection[m[K Clo | multiple/dos/21126.c
+Adobe Flash - Net[01;31m[KConnection[m[K.connect  | multiple/dos/37850.txt
+Adobe Flash Player - Net[01;31m[KConnection[m[K T | windows/remote/36962.rb
+Android Bluetooth - BNEP BNEP_SETUP_ | android/dos/44327.py
+Apple Mac OSX 10.10 - BlueTooth Disp | osx/dos/35771.c
+Avaya Cajun P130/P133/P330/P333 Netw | hardware/dos/22797.txt
+BadBlue 2.52 Web Server - Multiple C | windows/dos/419.pl
+Beetel [01;31m[KConnection[m[K Manager PCW_BTLIND | windows/local/28969.py
+BlackBerry Enterprise Server 4.0/4.1 | java/webapps/32927.txt
+Check Point Endpoint Security - Full | hardware/dos/33216.txt
+Cisco CBOS 2.x - Multiple TCP Connec | hardware/dos/21092.txt
+Classic FTP 2.36 - CWD Re[01;31m[Kconnection[m[K  | windows/dos/37711.py
+ClipShare 1.5.3 - 'ADODB-[01;31m[KConnection[m[K. | php/webapps/29736.txt
+DB4Web 3.4/3.6 - [01;31m[KConnection[m[K Proxy    | multiple/remote/21801.txt
+family [01;31m[Kconnection[m[K 1.8.1 - Multiple V | php/webapps/8319.txt
+Family [01;31m[KConnection[m[Ks 1.8.2 - Arbitrary | php/webapps/8349.c
+family [01;31m[Kconnection[m[Ks 2.1.3 - Multiple  | php/webapps/10467.txt
+family [01;31m[Kconnection[m[Ks 2.2.3 - Multiple  | php/webapps/12557.txt
+Family [01;31m[KConnection[m[Ks 2.3.2 - 'subject' | php/webapps/35500.txt
+Family [01;31m[KConnection[m[Ks CMS 1.4 - Multipl | php/webapps/5811.txt
+Family [01;31m[KConnection[m[Ks CMS 1.8.2 - Blind | php/webapps/8361.txt
+Family [01;31m[KConnection[m[Ks CMS 1.9 - SQL Inj | php/webapps/8671.pl
+Family [01;31m[KConnection[m[Ks CMS 2.3.2 - Persi | php/webapps/17050.txt
+Family [01;31m[KConnection[m[Ks CMS 2.5.0/2.7.1 - | php/webapps/18198.php
+Family [01;31m[KConnection[m[Ks CMS 2.7.1 - 'less | php/webapps/18208.rb
+Family [01;31m[KConnection[m[Ks Who is Chatting A | php/webapps/14186.txt
+FlashChat - '[01;31m[Kconnection[m[K.php' Role Fi | php/webapps/32494.txt
+Free Web Chat Initial Release - Conn | multiple/dos/24352.java
+Gauntlet Firewall for Unix 6.0 - SQL | linux/dos/23172.txt
+GlassFish Application Server - '/res | multiple/remote/31925.txt
+GlassFish Application Server - '/res | multiple/remote/31928.txt
+Haudenschilt Family [01;31m[KConnection[m[Ks 0.8  | php/webapps/30488.php
+IBM Lotus [01;31m[KConnection[m[Ks 2.0.1 - 'simpl | java/webapps/33254.txt
+Java - RMI[01;31m[KConnection[m[KImpl Deserializa | multiple/remote/16305.rb
+Magneto Net Resource ActiveX 4.0.0.5 | windows/remote/12248.html
+MagnetoSoft NetworkResources - Activ | windows/dos/12208.html
+ManageEngine Desktop Central 9 - Fil | jsp/remote/38982.rb
+Microsoft Internet [01;31m[KConnection[m[K Signup | windows/local/14754.txt
+Microsoft Windows XP/2000 - TCP Conn | windows/dos/276.delphi
+Navicat < 12.0.27 - Oracle Connectio | windows/dos/44558.py
+Nokia Electronic Documentation 5.0 - | windows/remote/23148.txt
+OpenWFE 1.4.x - Cross-Site Scripting | multiple/remote/24701.txt
+Oracle JRE - java.net.URL[01;31m[KConnection[m[K  | windows/remote/15288.txt
+PineApp Mail-SeCure - 'test_li_conne | php/remote/27293.rb
+PlatinumFTPServer 1.0.18 - Multiple  | windows/dos/25218.pl
+Quest vWorkspace 7.5 [01;31m[KConnection[m[K Brok | windows/remote/18704.txt
+Simple Web Server - [01;31m[KConnection[m[K Heade | windows/remote/20028.rb
+SmartMail Server 2.0 - Closed Connec | windows/dos/21972.pl
+SpyNet 6.5 Chat Server - Multiple Co | windows/dos/20828.txt
+Squid Web Proxy 2.2 - 'cachemgr.cgi' | cgi/remote/20465.sh
+Sun [01;31m[KConnection[m[K Update Manager for So | solaris/local/33799.sh
+TCP [01;31m[KConnection[m[K Reset - Remote Denial | linux/dos/291.c
+Telefonica O2 [01;31m[KConnection[m[K Manager 3.4 | windows/local/34966.txt
+Telefonica O2 [01;31m[KConnection[m[K Manager 8.7 | windows/local/34967.txt
+Valve Software Half-Life 1.1 Client  | windows/remote/22966.c
+Valve Software Half-Life 1.1 Client  | windows/remote/22967.txt
+Veritas/Symantec Backup Exec - SSL N | windows/remote/42282.rb
+Xinetd 2.1.x/2.3.x - Rejected Connec | linux/dos/22508.sh
+zFTP Client 20061220 - '[01;31m[KConnection[m[K N | linux/local/40203.py
+ZOC Terminal Emulator 7 - Quick Conn | windows/dos/37612.py
+------------------------------------- ---------------------------------
+------------------------------------- ---------------------------------
+ Shellcode Title                     |  Path
+------------------------------------- ---------------------------------
+FreeBSD/x86 - Reverse [01;31m[KConnection[m[K (17 | freebsd_x86/13265.c
+------------------------------------- ---------------------------------
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+Linksys [01;31m[KWAG[m[K54G v2 Wireless ADSL Rout | hardware/dos/7535.php
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+[01;31m[Kxtell[m[K 1.91.1/2.6.1 - Multiple Remote | linux/remote/21309.c
+[01;31m[Kxtell[m[K 2.6.1 - User Status Remote Inf | linux/remote/21310.txt
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+Dating [01;31m[KAgent[m[K 4.7.1 - Multiple Input  | php/webapps/28097.txt
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+[01;31m[KPostgreSQL[m[K - 'bitsubstr' Buffer Over | linux/dos/33571.txt
+[01;31m[KPostgreSQL[m[K 6.3.2/6.5.3 - Cleartext P | immunix/local/19875.txt
+[01;31m[KPostgreSQL[m[K 7.x - Multiple Vulnerabil | linux/dos/25076.c
+[01;31m[KPostgreSQL[m[K 8.01 - Remote Reboot (Den | multiple/dos/946.c
+[01;31m[KPostgreSQL[m[K 8.2/8.3/8.4 - UDF for Com | linux/local/7855.txt
+[01;31m[KPostgreSQL[m[K 8.3.6 - Conversion Encodi | linux/dos/32849.txt
+[01;31m[KPostgreSQL[m[K 8.3.6 - Low Cost Function | multiple/local/32847.txt
+[01;31m[KPostgreSQL[m[K 8.4.1 - JOIN Hashtable Si | multiple/dos/33729.txt
+[01;31m[KPostgreSQL[m[K 9.3 - COPY FROM PROGRAM C | multiple/remote/46813.rb
+[01;31m[KPostgreSQL[m[K 9.4-0.5.3 - Privilege Esc | linux/local/45184.sh
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+[01;31m[KFreeciv[m[K 2.0.7 - Jumbo Malloc Crash ( | windows/dos/1557.c
+[01;31m[KFreeciv[m[K 2.2.1 - Multiple Remote Deni | linux/dos/34249.txt
+[01;31m[KFreeciv[m[K Server 2.0.0beta8 - Denial o | multiple/dos/880.pl
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+[01;31m[KNRPE[m[K 2.15 - Remote Code Execution    | multiple/remote/34461.py
+[01;31m[KNRPE[m[K 2.15 - Remote Command Execution | multiple/remote/32925.txt
+SuperDoctor5 - '[01;31m[KNRPE[m[K' Remote Code Ex | multiple/remote/47030.py
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
+------------------------------------- ---------------------------------
+ Exploit Title                       |  Path
+------------------------------------- ---------------------------------
+Squid 2.0-4 - Cache [01;31m[KFTP[m[K [01;31m[KProxy[m[K URL Bu | unix/remote/21297.c
+Squid [01;31m[KProxy[m[K 2.5/2.6 - [01;31m[KFTP[m[K URI Remote | linux/dos/29473.txt
+------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+
