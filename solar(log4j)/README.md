@@ -38,7 +38,8 @@ mitigation src: https://solr.apache.org/security.html#apache-solr-affected-by-ap
 - back in 2016 this vulnerability already been discussed on blackhat conference https://www.blackhat.com/docs/us-16/materials/us-16-Munoz-A-Journey-From-JNDI-LDAP-Manipulation-To-RCE.pdf
 ```
 
-2. POC
+2. The oversimplified POC
+![](commandList.md)
 ```
 the easiest and oversimplification version is available at tryhackme https://tryhackme.com/room/solar
 
@@ -48,12 +49,12 @@ to really pull it off on real world you might need to chain the exploit https://
 ```
 
 3. Exploitation (THM solr sample)
-```
-1. reconnaissance
-![nmap.png](nmap.png)
+![poc.png](documentation/exploitation.png)
 
-2. view the log file given on task x
-solr.logs.zip
+![shell](documentation/rce.png)
 
-see commandList.md 	
-```
+
+4. Mitigation
+
+![mitigation](documentation/mitigation.png)
+
