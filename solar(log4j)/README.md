@@ -18,7 +18,7 @@ Severity: Critical
 Versions Affected: 7.4.0 to 7.7.3, 8.0.0 to 8.11.0
 solr 5, solr6 , solr7 - solr7.3 all of these uses log4j 1.12.7 
 ```
-\*Based on `https://solr.apache.org/security.html#apache-solr-affected-by-apache-log4j-cve-2021-44228`
+\*Based on https://solr.apache.org/security.html#apache-solr-affected-by-apache-log4j-cve-2021-44228
 
 - mitigation
 ```
@@ -53,5 +53,5 @@ to really pull it off on real world you might need to chain the exploit https://
 2. view the log file given on task x
 solr.logs.zip
 
-3. 	
+see commandList.md 	
 ```
