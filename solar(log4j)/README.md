@@ -4,7 +4,10 @@ pentest report layout
 
 - introducing log4shell
 ```
-Dec 9th, 2021, emerged a new 'shellshock' like vulnerability dubbed as "log4shell" which affected million of devices using java worldwide. The logging feature log4j gives RCE to adversaries by resolving ldap lookup through JNDI and is scored 10.0 (the most critical designation) based on CVSS.
+Dec 9th, 2021, emerged a new 'shellshock' like vulnerability dubbed as "log4shell" 
+which affected million of devices using java worldwide. The logging feature log4j 
+gives RCE to adversaries by resolving ldap lookup through JNDI and is scored 10.0 
+(the most critical designation) based on CVSS.
 ```
 \*CVSS (Common Vulnerability Scoring System)
 
