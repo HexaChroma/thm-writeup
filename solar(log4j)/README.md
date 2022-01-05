@@ -1,5 +1,7 @@
 Apache Solar log4shell (oversimplified POC) [room created by John Hammond]
 -------------------------------------------------
+***get the hands on experience on https://tryhackme.com/room/solar***
+
 1. Quick recap on Apache SOLR LOG4J vulnerability
 
 - introducing log4shell
